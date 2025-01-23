@@ -1,0 +1,92 @@
+.navbar {
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  font-size: 18px;
+}
+
+.logo {
+  width: 40px;
+  height: 40px;
+}
+
+.current-location {
+  color: #0052cc !important;
+  font-weight: bold;
+}
+
+.icon {
+  margin-right: 5px;
+}
+
+.navbar-toggler {
+  border: none !important;
+  outline: none !important;
+}
+
+html,
+body {
+  height: 100%;
+  margin: 0;
+}
+
+#root {
+  display: flex;
+  flex-direction: column;
+  min-height: 100%;
+}
+
+main {
+  flex-grow: 1;
+}
+
+.footer {
+  width: 100%;
+  background-color: #f9fafb;
+  text-align: center;
+  padding: 10px 0;
+  position: relative;
+  bottom: 0;
+  margin-left: 0;
+  margin-right: 0;
+  padding-left: 0;
+  padding-right: 0;
+  margin-top: auto;
+  overflow-x: hidden;
+}
+
+.footer p {
+  margin-right: 0;
+  display: inline;
+  color: #686868;
+  font-size: 14px;
+}
+
+.footer .footer-company {
+  font-weight: bold;
+}
+
+.footer p + p {
+  margin-left: 10px;
+}
+
+.footer {
+  padding: 10px 0; /* 위아래 여백 */
+}
+
+.footer p {
+  font-size: 16px; /* 기본 글자 크기 */
+  margin: 0; /* 글자 간 여백 제거 */
+}
+
+/* 태블릿 크기 (768px 이하) */
+@media (max-width: 768px) {
+  .footer p {
+    font-size: 14px; /* 글자 크기 줄임 */
+  }
+}
+
+/* 모바일 크기 (576px 이하) */
+@media (max-width: 576px) {
+  .footer p {
+    font-size: 9px; /* 더 작은 글자 크기 */
+  }
+}
